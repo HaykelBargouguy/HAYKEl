@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <table
+      border="1px"
+      style="width:35%; height: 60%; margin: 10%; margin-top: 0%"
+    >
+      <tr>
+        <td colspan="2"><input type="number" id="input1" /></td>
+        <td colspan="2"><input type="number" id="input2" /></td>
+      </tr>
+      <tr>
+        <th><button id="b1" onclick="add()">+</button></th>
+        <th><button id="b2" onclick="ss()">-</button></th>
+        <th><button id="b3" onclick="mul()">*</button></th>
+        <th><button id="b4" onclick="div()">/</button></th>
+      </tr>
+      <tr>
+          <th><button id="cos" onclick="cos()">COS</button></th>
+          <th><button id="sin" onclick="sin()">SIN</button></th>
+          <th><button id="exp" onclick="exp()">EXP</button></th>
+          <th><button id="pui" onclick="pui()">PUI</button></th>
+        </tr>
+      <tr>
+        <td colspan="4">
+          <p id="resultat"></p>
+        </td>
+      </tr>
+    </table>
+
+    <script src="script.js"></script>
+  </body>
+</html>
